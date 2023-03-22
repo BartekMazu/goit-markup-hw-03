@@ -1,9 +1,18 @@
+/*globalne*/
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #212121;
 }
 img {
   display: block;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /*WebStudio*/
@@ -65,7 +74,7 @@ img {
   color: #212121;
 }
 
-/*footer*/
+/* footer */
 .footer-box {
   background-color: #2f303a;
 }
