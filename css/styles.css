@@ -1,10 +1,21 @@
 /*globalne*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #212121;
 }
 img {
   display: block;
+}
+.header-position {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+  align-items: center;
+  max-height: 80px;
 }
 .container {
   max-width: 1200px;
@@ -23,6 +34,7 @@ img {
   line-height: 1.2;
   text-decoration: none;
   color: #212121;
+  margin: 24px 0 25px 0;
 }
 .logo:hover,
 .logo:focus {
@@ -41,6 +53,8 @@ img {
 }
 .menu-nav {
   list-style-type: none;
+  display: flex;
+  margin-left: 93px;
 }
 .menu-nav a {
   text-decoration: none;
@@ -49,6 +63,9 @@ img {
 .menu-nav a:hover,
 .menu-nav a:focus {
   color: #2196f3;
+}
+.menu-nav li:not(:last-child) {
+  margin-right: 46px;
 }
 
 /*Kontakt w header*/
@@ -66,6 +83,11 @@ img {
 }
 .menu-contact {
   list-style-type: none;
+  display: flex;
+  margin-left: 364px;
+}
+.menu-contact li:not(:last-child) {
+  margin-right: 50px;
 }
 
 /*Linki*/
