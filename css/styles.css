@@ -20,6 +20,7 @@ img {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .section {
   padding-bottom: 94px;
@@ -162,7 +163,6 @@ img {
   height: 50px;
   background: #2196f3;
   margin: 0 auto;
-  padding: auto;
   text-align: center;
   color: #ffffff;
   font-weight: 700;
@@ -176,6 +176,7 @@ img {
 .feature-box {
   list-style-type: none;
   display: flex;
+  gap:30px;
 }
 .text-feature {
   font-weight: 700;
@@ -212,9 +213,7 @@ img {
 .job-box {
   padding-top: 0;
 }
-.job-box li:not(:last-child) {
-  margin-right: 30px;
-}
+
 /*Nasz zespół*/
 .team-box {
   background-color: #f5f4fa;
