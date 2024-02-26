@@ -40,6 +40,10 @@ h1{
 .header-border{
 border-bottom: 1px solid #e7e9fc;
 }
+
+ .visually-hidden{
+display: none;
+ }
 /*Menu*/
 .menu{
     display: flex;
@@ -65,12 +69,8 @@ border-bottom: 1px solid #e7e9fc;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.02em;
-    
+    padding: 24px 0;
 }
-.menu-nav-list{
-padding: 24px 0;
-}
-
 .menu-nav-list:not(:last-child){
     margin-right: 40px;
 }
@@ -154,9 +154,6 @@ padding: 24px 0;
     margin: auto;
     padding: 120px 0;
 }
-.header-hidden{
-    display:none;
-}
 .feature-list{
     list-style-type: none;
     letter-spacing: 0.02em;
@@ -230,7 +227,6 @@ padding: 24px 0;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        padding-bottom: 32px;
 }
 
 
